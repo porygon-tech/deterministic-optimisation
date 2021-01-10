@@ -12,3 +12,4 @@ The following results are consistent with the properties of both algorithms, sin
 Conjugate Gradient: 40 iters
 
 Levenberg-Marquardt: 16 iters
+
