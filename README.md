@@ -10,6 +10,9 @@ Taking into account the steepness of this surface, the starting point (-1.5, -1)
 The following results are consistent with the properties of both algorithms, since the LM converges very quickly (at the cost of a high sensitivity to initial conditions (needs to be close to the local/global minimum).
 
 Conjugate Gradient: 40 iters:
+
 ![CG](/CG.png)
+
 Levenberg-Marquardt: 16 iters:
+
 ![LM](/LM.png)
