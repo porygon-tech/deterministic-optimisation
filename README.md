@@ -16,3 +16,7 @@ Conjugate Gradient: 40 iters:
 Levenberg-Marquardt: 16 iters:
 
 ![LM](/LM.png)
+
+
+Evaluating the hessian properties, the function is convex in all R2.
+
