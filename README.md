@@ -13,3 +13,5 @@ Conjugate Gradient: 40 iters
 
 Levenberg-Marquardt: 16 iters
 
+![CG](/CG.png)
+![LM](/LM.png)
