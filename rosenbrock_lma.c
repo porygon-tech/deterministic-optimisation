@@ -48,7 +48,8 @@ int main(int argc, char const *argv[])
 */
 	x[0] = -1.5;
 	x[1] = -1.0;
-
+	printf("%.4f\t%.4f\t\n", x[0],x[1]);
+	
 	unsigned short i=0, iters=100;
 	double thres = 0.001;						////////////////
 
@@ -71,7 +72,8 @@ int main(int argc, char const *argv[])
 
 
 		//if (i%1==0) printf("[%06d]: x=%.4f, y=%.4f, z=%.6f\n", i, x[0],x[1],z);
-		printf("%.4f\t%.4f\t%.10f\n", x[0],x[1],new);
+		//printf("%.4f\t%.4f\t%.10f\n", x[0],x[1],new);
+		printf("%.4f\t%.4f\t\n", x[0],x[1]);
 		//printf("%.2f\t%.2f %f\n", x[0],x[1], modulus( gradient ));
 	}
 	free(x);

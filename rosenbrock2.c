@@ -86,7 +86,7 @@ int main(int argc, char const *argv[])
 */
 	x[0] = -1.5;
 	x[1] = -1.0;
-
+	printf("%.2f\t%.2f\n", x[0],x[1]);
 
 	unsigned short i=0, iters=atoi(argv[3]);
 	double thres = 0.001f;						////////////////
